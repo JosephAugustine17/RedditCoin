@@ -28,6 +28,8 @@ cryptocurrency?
 7.  Do surges in popularity on reddit and twitter map directly to the volume of transactions
 and price increase made per cryptocurrency?
 
+![image](https://github.com/JosephAugustine17/RedditCoin/blob/gh-pages/Model2AveragePseudoR2.png)
+
 ```markdown
 Syntax highlighted code block
 
@@ -43,7 +45,6 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-![image](https://github.com/JosephAugustine17/RedditCoin/blob/gh-pages/Model2AveragePseudoR2.png)
 [Link](url) and ![![image](https://user-images.githubusercontent.com/50184583/144765925-438d42c5-1b65-432e-ba42-305da82beb8e.png)
 ]()
 ](src)
