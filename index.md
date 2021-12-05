@@ -14,7 +14,7 @@ subreddits. We will also analyze if reddit is reactive or proactive in terms of 
 for which currency is it proactive and reactive.
 
 
-### Abstract 
+### Research Questions
 1.  What is the relationship between popularity of coin’s mentioned on reddit and value of
 coins in the real world for low valued bitcoins?
 2.  Does a surge in popularity due to posts and comments on reddit map to increases in
@@ -43,7 +43,9 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and ![![image](https://user-images.githubusercontent.com/50184583/144765925-438d42c5-1b65-432e-ba42-305da82beb8e.png)
+]()
+](src)
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
