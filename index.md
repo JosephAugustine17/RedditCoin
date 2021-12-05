@@ -43,6 +43,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
+![image](https://github.com/JosephAugustine17/RedditCoin/blob/gh-pages/Model2AveragePseudoR2.png)
 [Link](url) and ![![image](https://user-images.githubusercontent.com/50184583/144765925-438d42c5-1b65-432e-ba42-305da82beb8e.png)
 ]()
 ](src)
