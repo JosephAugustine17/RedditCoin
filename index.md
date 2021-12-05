@@ -14,7 +14,7 @@ subreddits. We will also analyze if reddit is reactive or proactive in terms of 
 for which currency is it proactive and reactive.
 
 <p align="center">
-   <img src= "https://github.com/JosephAugustine17/RedditCoin/blob/gh-pages/Model2AveragePseudoR2.png" />
+   <img src= "https://josephaugustine17.github.io/RedditCoin/Model2AveragePseudoR2.png" />
 </p>
 
 ```markdown
