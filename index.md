@@ -1,12 +1,32 @@
-## Welcome to GitHub Pages
+## Welcome to Reddit Coin
 
-You can use the [editor on GitHub](https://github.com/JosephAugustine17/RedditCoin/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Abstract 
+People are on a continual mine for wealth searching for the next biggest phenom in order to
+jump that bandwagon earlier than sooner. The most recent phenomenon that has been taking
+the world by storm is cryptocurrency. From BItcoin to Squid coin the world of crypto is
+continually expanding rapidly however many people are stuck in the unknown when trying to
+determine what crypto to invest into. Rather than base decisions solely on impulsivity some
+buyers may choose to seek rational advice from an external source such as social media. If they
+however seek external help they are left in a difficult decision of trusting information being
+echoed through media platforms. Our project will tackle the above by attempting to show a
+relationship between the value of low-valued crypto currencies and their popularity on multiple
+subreddits. We will also analyze if reddit is reactive or proactive in terms of cryptocurrencies and
+for which currency is it proactive and reactive.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Abstract 
+1.  What is the relationship between popularity of coin’s mentioned on reddit and value of
+coins in the real world for low valued bitcoins?
+2.  Does a surge in popularity due to posts and comments on reddit map to increases in
+value for certain cryptocurrencies?
+3.  Can specific subreddits predict increases in value based on increases in popularity
+through posts/comments?
+4.  What crypto that is most and least talked about through crypto subreddit?
+5.  Duration that specific crypto’s are spoken about through multiple subreddits
+6.  Do surges in popularity on reddit map directly to the volume of transactions made per
+cryptocurrency?
+7.  Do surges in popularity on reddit and twitter map directly to the volume of transactions
+and price increase made per cryptocurrency?
 
 ```markdown
 Syntax highlighted code block
