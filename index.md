@@ -27,9 +27,9 @@ through posts/comments?
 cryptocurrency?
 7.  Do surges in popularity on reddit and twitter map directly to the volume of transactions
 and price increase made per cryptocurrency?
-<p align="center">
+<image align="center">
     ![image](https://github.com/JosephAugustine17/RedditCoin/blob/gh-pages/Model2AveragePseudoR2.png)
-</p>
+</image>
 
 ```markdown
 Syntax highlighted code block
