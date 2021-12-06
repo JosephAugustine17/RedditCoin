@@ -1,6 +1,11 @@
 ## Welcome to Reddit Coin
+<p align="center">
+   <img src= "https://josephaugustine17.github.io/RedditCoin/docs/assets/Model2AveragePseudoR2.png" />
+</p>
 
-### Introduction
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/test.html" style="width: 800px; height: 800px; border: 0px"></iframe>
+  
+## Introduction
 People are on a continual mine for wealth searching for the next biggest phenom in order to
 jump that bandwagon earlier than sooner. The most recent phenomenon that has been taking
 the world by storm is crypto. From Bitcoin to Squid coin the world of crypto is
@@ -13,13 +18,48 @@ relationship between the value of low-valued crypto currencies and their popular
 subreddits. We will also analyze if reddit is reactive or proactive in terms of cryptocurrencies and
 for which currency is it proactive and reactive.
 
-<button type="button">Unanswered Questions!</button>
+## Research Questions 
 
-<p align="center">
-   <img src= "https://josephaugustine17.github.io/RedditCoin/docs/assets/Model2AveragePseudoR2.png" />
-</p>
+1. What is the relationship between popularity of coin’s mentioned on reddit and value of
+coins in the real world for low valued bitcoins?
+2. Does a surge in popularity due to posts and comments on reddit map to increases in
+value for certain cryptocurrencies?
+3. Can specific subreddits predict increases in value based on increases in popularity
+through posts/comments?
+4. What crypto that is most and least talked about through crypto subreddit?
+5. Do surges in popularity on reddit map directly to the volume of transactions made per
+cryptocurrency?
+6. Do surges in popularity on reddit and twitter map directly to the volume of transactions
+and price increase made per cryptocurrency?
 
-  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/test.html" style="width: 800px; height: 800px; border: 0px"></iframe>
+
+## Data Collection 
+
+## Data Cleaning 
+
+## Data Exploration
+
+## Data Modelling 
+
+## Visualization 
+
+### Bitoin
+### Vechain
+### Ethereum
+### 
+
+## Interpretation 
+do the graphs makes sense 
+explain what is in the graphs 
+
+## Communication 
+
+Clearly describe what you learned and how others can use 
+what is the story the data is telling 
+what is th evidence its true and what are the limitations 
+relate back to the goal 
+
+  
 ```markdown
 Syntax highlighted code block
 
