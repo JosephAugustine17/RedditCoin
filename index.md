@@ -17,7 +17,7 @@ for which currency is it proactive and reactive.
    <img src= "https://josephaugustine17.github.io/RedditCoin/docs/assets/Model2AveragePseudoR2.png" />
 </p>
 
-  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/test.html" style="width: 500px; height: 130px; border: 0px"></iframe>
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/test.html" style="width: 800px; height: 800px; border: 0px"></iframe>
 ```markdown
 Syntax highlighted code block
 
