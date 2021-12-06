@@ -59,11 +59,11 @@ Data about names and symbols of crypto's were gathered first from website CoinMa
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words_filtered.png"  class="center" >
 
 
-Each crypto was placed in a dataframe which maps a crypto to the number mentions made on a particular day initialized as 0.
+Each crypto was placed in a dataframe which maps a crypto to the amount of karma gained made on a particular day initialized as 0.
  <p align ="center">
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/coin_counter.png"  class="center" >
  </p>
- Looped through each related submission and look for mention of a specific coin. Similarly done for commentsas well 
+ Looped through each related submission and look for mention of a specific coin. Similarly done for comments as well 
   <p align ="center">
   <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_coin_counter.png" class="center">
   </p>
@@ -72,7 +72,7 @@ Each crypto was placed in a dataframe which maps a crypto to the number mentions
   <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/total_coin_counte.png"  class="center" >
 </p>
 
- ## Historical Crypto Data
+## Historical Crypto Data
  Data about specific crypto's was downloaded from yahoo finance. These crypto's include : Bitcoin, Ethereum,H3x, Vechain and include data such as opens,high,low,adjusted close,closes, and volume for each day. We chose these crypto's due to varying popularity. Bitcoin and Ethereum have high popularity, Vchain is medium popular, and H3x is almost unknown. 
 
 
