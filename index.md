@@ -30,7 +30,7 @@ and price increase made per cryptocurrency?
 
 # Data Collection and Cleaning 
 
-1. ## Reddit Data 
+- ## Reddit Data 
 Submission data gathered from reddit
 
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_pre_clean.png" class="center" >
@@ -53,7 +53,7 @@ Reddit submission data was filtered to include subreddits with the names "btc", 
 
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/crypto_subreddits.png" class="center" >
  
-2.  ## Crypto Symbol/Name Data 
+-  ## Crypto Symbol/Name Data 
 Data about names and symbols of crypto's were gathered first from website CoinMarketCap. This was data was scraped from the web page and then parsed as needed. Symbols were cleaned as well removing symbols which were common english words. 
 
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words_filtered.png"  class="center" >
@@ -72,8 +72,8 @@ Each crypto was placed in a dataframe which maps a crypto to the number mentions
   <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/total_coin_counte.png"  class="center" >
 </p>
 
-3. ## Historical Crypto Data
-- Data about specific crypto's was downloaded from yahoo finance. These crypto's include : Bitcoin, Ethereum,H3x, Vechain and include data such as opens,high,low,adjusted close,closes, and volume for each day. We chose these crypto's due to varying popularity. Bitcoin and Ethereum have high popularity, Vchain is medium popular, and H3x is almost unknown. 
+- ## Historical Crypto Data
+ Data about specific crypto's was downloaded from yahoo finance. These crypto's include : Bitcoin, Ethereum,H3x, Vechain and include data such as opens,high,low,adjusted close,closes, and volume for each day. We chose these crypto's due to varying popularity. Bitcoin and Ethereum have high popularity, Vchain is medium popular, and H3x is almost unknown. 
 
 
 # Data Exploration
