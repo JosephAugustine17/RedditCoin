@@ -86,7 +86,7 @@ We discovered that many of have the submissions had no or very low score.
  
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/comment\_score_value.png"  class="center" >
 
-Also we discovered comments scores are negative are close to 0. 
+Also we discovered comments scores that are negative are close to 0. 
   <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/comments_score_neg_value.png"  class="center" >
 
 We performed various analysis on the date grouping by day, month, and year and seeing how post frequency varies using bar graphs. Finally we looked at the different subreddits utilizing key work searches to see if there even are crypto subreddits to do our project on. We discovered the most popular subreddits using graphs and decided which ones to focus on.
