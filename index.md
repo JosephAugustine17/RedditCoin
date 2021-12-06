@@ -61,7 +61,7 @@ Each crypto was placed in a dataframe which maps a crypto to the number mentions
  
  Looped through each related submission and look for mention of a specific coin. Similarly done for commentsas well 
   
-  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_coin_counter">
+  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_coin_counter.png">
   
   Both comment and submission data was merged into single table
   
