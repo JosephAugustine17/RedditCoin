@@ -18,12 +18,8 @@ for which currency is it proactive and reactive.
 </p>
 
 <p align="center">
-   <iframe id="inlineFrameExample"
-    title="Inline Frame Example"
-    width="300"
-    height="200"
-    src="//github.com/JosephAugustine17/RedditCoin/blob/gh-pages/docs/assets/test.html">
-</iframe>
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/test.html" style="width: 500px; height: 130px; border: 0px"></iframe>
+
 </p>
 ```markdown
 Syntax highlighted code block
