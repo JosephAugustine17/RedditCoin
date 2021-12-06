@@ -27,22 +27,58 @@ and price increase made per cryptocurrency?
 
 
 # Data Collection and Cleaning 
+
+1. ## Reddit Data 
+Submission data gathered from reddit 
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_pre_clean.png" style="width: 400px; height: 400px; border: 0px"></img>
+
+Comment data gathered from reddit 
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/comment_pre_clean.png" style="width: 400px; height: 400px; border: 0px"></img>
+
+Reddit submission data cleaned such that each column between "score", "title", "subreddit", "created_utc" would require values.
+Reddit comment data cleaned such that each column between "score", "body", "subreddit", "created_utc" would require values.
+Columns with empty values were dropped for both. 
+<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/cleaned_data.png" style="width: 400px; height: 400px; border: 0px"></img>
+
+Additionally both fields filtered out dates which did not contain numerical values. 
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Date_filter.png" style="width: 400px; height: 400px; border: 0px"></img>
+
+From Reddit data subreddits pertaining to crypto specifically "btc", "BitcoinBeginners", "BitcoinMarkets", "BitcoinBeginners", "Bitcoin", "ethereum", "Vechain", "Ripple", "LitecoinMarkets", "dogecoin", "Monero", "Stellar" and any subreddit containing "crypto within the title was added to queue of subreddits to be queried. 
+
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/crypto_subreddits.png" style="width: 400px; height: 400px; border: 0px"></img>
+
 - ## Crypto Symbol/Name Data 
-Data about names and symbols of crypto's were gathered first from website CoinMarketCap. This was data was scraped from the web page and then parsed as needed. Symbols were cleaned as well removing symbols which were common english words. These words are commonly used within subreddits however do not show any real indication of the popularity of the crypto since they are just commonly used terms. 
+Data about names and symbols of crypto's were gathered first from website CoinMarketCap. This was data was scraped from the web page and then parsed as needed. Symbols were cleaned as well removing symbols which were common english words. 
+<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words_filtered.png" style="width: 400px; height: 400px; border: 0px"></img>
 
-- ## Reddit Data 
-Data was gathered from both posts and comments which were filtered based on whether they contained the name or symbol of crypto's discovered in our crypto data. Each crypto was given a score based on how much it was talked about in a a certain day.  
 
-- ## Historic Crypto Data
-- Data was gathered for each of the crypto's we were working with which included Dates, opens,closes, adjusted close, etc. Data was sorted by date. 
+Each crypto was placed in a dataframe which maps a crypto to the number mentions made on a particular day initialized as 0.
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/coin_counter.png" style="width: 400px; height: 400px; border: 0px"></img>
+ 
+ Looped through each related submission and look for mention of a specific coin. Similarly done for commentsas well 
+  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_coin_counter" style="width: 400px; height: 400px; border: 0px"></img>
+  
+  Both comment and submission data was merged into single table
+  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/total_coin_counter.png" style="width: 400px; height: 400px; border: 0px"></img>
+
+- ## Historical Crypto Data
+- Data about specific crypto's was downloaded from yahoo finance. These crypto's include : Bitcoin, Ethereum,H3x, Vechani and include data such as opens,high,low,adjusted close,closes, and volume for each day. 
+
 
 # Data Exploration
+Discovered most popular cryptos which are as followed: 
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Most_popular.png" style="width: 400px; height: 400px; border: 0px"></img>
 
+Discovered least popular cryptos which are as followed: 
+<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/least_popular.png" style="width: 400px; height: 400px; border: 0px"></img>
 
-Hypothesis: After reviewing our data we believe that reddit will be predictive in terms of the increase of price of crypto's. This means reddit activity for a certain crypto will skyrocket before a crypto's price begins to rise/drop. 
+Multiple crypto symbols have similar names as every day words. 
+<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words.png" style="width: 400px; height: 400px; border: 0px"></img>
+
+Hypothesis: After reviewing our data we believe that reddit will be predictive in terms of the increase of price of crypto's. This means reddit activity for a certain crypto will increase before a crypto's price begins to rise/drop. 
 
 # Reddit Score vs BitCoin Score
-
+The reddit score for each crypto is the amount of times it was mentioned in a day. The crypto score is the closed value of the crypto for that same day. The following graph compares the two values for 4 cryptos. 
 - ##  Bitcoin
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin.html" style="width: 2500px; height: 800px; border: 0px"></iframe>
 - ## Vechain
@@ -54,7 +90,7 @@ Hypothesis: After reviewing our data we believe that reddit will be predictive i
 
 
 # Reddit score vs Trade Volume
-
+The reddit score for each crypto is the amount of times it was mentioned in a day. The trade volume is amount of transactions made with that crypto that same day. The following graph compares both side by side. 
 - ##  Bitcoin
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_volume.html" style="width: 2500px; height: 800px; border: 0px"></iframe>
 - ## Vechain
