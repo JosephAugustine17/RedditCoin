@@ -27,10 +27,10 @@ and price increase made per cryptocurrency?
 
 
 # Data Collection 
-## Crypto Data 
+- ## Crypto Data 
 Data about names and symbols of crypto's were gathered first from website CoinMarketCap. This was data was craped from the web page and then parsed as needed. 
 
-## Reddit Data 
+- ## Reddit Data 
 Data was gathered from both posts and comments which were filtered based on whether they contained the name or symbol of crypto's discovered in our crypto data. 
 
 
@@ -44,11 +44,11 @@ Hypothesis:
 
 # Visualization 
 
-## - Bitcoin
+- ##  Bitcoin
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_2.html" style="width: 1500px; height: 600px; border: 0px"></iframe>
-## -Vechain
+- ## Vechain
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain_2.html" style="width: 1500px; height: 600px; border: 0px"></iframe>
-## - Ethereum
+- Ethereum
 <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum.html" style="width: 1500px; height: 600px; border: 0px"></iframe>
 
 ## Interpretation 
