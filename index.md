@@ -65,7 +65,7 @@ Each crypto was placed in a dataframe which maps a crypto to the number mentions
   
   Both comment and submission data was merged into single table
   
-  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/total_coin_counter.png" >
+  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/total_coin_counte.png" >
 
 - ## Historical Crypto Data
 - Data about specific crypto's was downloaded from yahoo finance. These crypto's include : Bitcoin, Ethereum,H3x, Vechani and include data such as opens,high,low,adjusted close,closes, and volume for each day. 
