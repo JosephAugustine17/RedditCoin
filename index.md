@@ -30,22 +30,22 @@ and price increase made per cryptocurrency?
 
 1. ## Reddit Data 
 Submission data gathered from reddit 
- <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_pre_clean.png" style="width: 400px; height: 400px; border: 0px"></img>
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_pre_clean.png" ></img>
 
 Comment data gathered from reddit 
- <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/comment_pre_clean.png" style="width: 400px; height: 400px; border: 0px"></img>
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/comment_pre_clean.png" class = "center" ></img>
 
 Reddit submission data cleaned such that each column between "score", "title", "subreddit", "created_utc" would require values.
 Reddit comment data cleaned such that each column between "score", "body", "subreddit", "created_utc" would require values.
 Columns with empty values were dropped for both. 
-<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/cleaned_data.png" style="width: 400px; height: 400px; border: 0px"></img>
+<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/cleaned_data.png"></img>
 
 Additionally both fields filtered out dates which did not contain numerical values. 
- <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Date_filter.png" style="width: 400px; height: 400px; border: 0px"></img>
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Date_filter.png" ></img>
 
 From Reddit data subreddits pertaining to crypto specifically "btc", "BitcoinBeginners", "BitcoinMarkets", "BitcoinBeginners", "Bitcoin", "ethereum", "Vechain", "Ripple", "LitecoinMarkets", "dogecoin", "Monero", "Stellar" and any subreddit containing "crypto within the title was added to queue of subreddits to be queried. 
 
- <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/crypto_subreddits.png" style="width: 400px; height: 400px; border: 0px"></img>
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/crypto_subreddits.png"></img>
 
 - ## Crypto Symbol/Name Data 
 Data about names and symbols of crypto's were gathered first from website CoinMarketCap. This was data was scraped from the web page and then parsed as needed. Symbols were cleaned as well removing symbols which were common english words. 
