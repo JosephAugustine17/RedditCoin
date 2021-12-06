@@ -3,7 +3,7 @@
    <img src= "https://josephaugustine17.github.io/RedditCoin/docs/assets/Model2AveragePseudoR2.png" />
 </p>
 
-  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/test.html" style="width: 800px; height: 800px; border: 0px"></iframe>
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_2.html" style="width: 800px; height: 800px; border: 0px"></iframe>
   
 ## Introduction
 People are on a continual mine for wealth searching for the next biggest phenom in order to
@@ -43,9 +43,12 @@ and price increase made per cryptocurrency?
 
 ## Visualization 
 
-### Bitoin
+### Bitcoin
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_2.html" style="width: 800px; height: 800px; border: 0px"></iframe>
 ### Vechain
+<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain_2.html" style="width: 800px; height: 800px; border: 0px"></iframe>
 ### Ethereum
+<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum.html" style="width: 800px; height: 800px; border: 0px"></iframe>
 ### 
 
 ## Interpretation 
