@@ -1,11 +1,4 @@
-## Welcome to Reddit Coin
-<p align="center">
-   <img src= "https://josephaugustine17.github.io/RedditCoin/docs/assets/Model2AveragePseudoR2.png" />
-</p>
-
-  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_2.html" style="width: 800px; height: 800px; border: 0px"></iframe>
-  
-## Introduction
+# Introduction
 People are on a continual mine for wealth searching for the next biggest phenom in order to
 jump that bandwagon earlier than sooner. The most recent phenomenon that has been taking
 the world by storm is crypto. From Bitcoin to Squid coin the world of crypto is
@@ -18,7 +11,7 @@ relationship between the value of low-valued crypto currencies and their popular
 subreddits. We will also analyze if reddit is reactive or proactive in terms of cryptocurrencies and
 for which currency is it proactive and reactive.
 
-## Research Questions 
+# Research Questions 
 
 1. What is the relationship between popularity of coin’s mentioned on reddit and value of
 coins in the real world for low valued bitcoins?
@@ -33,29 +26,29 @@ cryptocurrency?
 and price increase made per cryptocurrency?
 
 
-## Data Collection 
-### Crypto Data 
+# Data Collection 
+## Crypto Data 
 Data about names and symbols of crypto's were gathered first from website CoinMarketCap. This was data was craped from the web page and then parsed as needed. 
 
-### Reddit Data 
+## Reddit Data 
 Data was gathered from both posts and comments which were filtered based on whether they contained the name or symbol of crypto's discovered in our crypto data. 
 
 
-## Data Cleaning 
+# Data Cleaning 
 
 
-## Data Exploration
+# Data Exploration
 Hypothesis: 
 
-## Data Modelling 
+# Data Modelling 
 
-## Visualization 
+# Visualization 
 
-- ### Bitcoin
+## - Bitcoin
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_2.html" style="width: 1500px; height: 600px; border: 0px"></iframe>
-- ### Vechain
+## -Vechain
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain_2.html" style="width: 1500px; height: 600px; border: 0px"></iframe>
-- ### Ethereum
+## - Ethereum
 <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum.html" style="width: 1500px; height: 600px; border: 0px"></iframe>
 ### 
 
