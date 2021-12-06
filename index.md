@@ -29,8 +29,7 @@ and price increase made per cryptocurrency?
 # Data Collection and Cleaning 
 
 1. ## Reddit Data 
-Submission data gathered from reddit 
- <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_pre_clean.png" ></img>
+Submission data gathered from reddit <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_pre_clean.png" ></img>
  
 Comment data gathered from reddit 
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/comment_pre_clean.png" ></img>
@@ -44,8 +43,7 @@ Additionally both fields filtered out dates which did not contain numerical valu
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Date_filter.png" ></img>
 
 From Reddit data subreddits pertaining to crypto specifically "btc", "BitcoinBeginners", "BitcoinMarkets", "BitcoinBeginners", "Bitcoin", "ethereum", "Vechain", "Ripple", "LitecoinMarkets", "dogecoin", "Monero", "Stellar" and any subreddit containing "crypto within the title was added to queue of subreddits to be queried. 
-
- <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/crypto_subreddits.png"></img>
+<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/crypto_subreddits.png"></img>
 
 - ## Crypto Symbol/Name Data 
 Data about names and symbols of crypto's were gathered first from website CoinMarketCap. This was data was scraped from the web page and then parsed as needed. Symbols were cleaned as well removing symbols which were common english words. 
