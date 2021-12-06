@@ -34,10 +34,18 @@ and price increase made per cryptocurrency?
 
 
 ## Data Collection 
+### Crypto Data 
+Data about names and symbols of crypto's were gathered first from website CoinMarketCap. This was data was craped from the web page and then parsed as needed. 
+
+### Reddit Data 
+Data was gathered from both posts and comments which were filtered based on whether they contained the name or symbol of crypto's discovered in our crypto data. 
+
 
 ## Data Cleaning 
 
+
 ## Data Exploration
+Hypothesis: 
 
 ## Data Modelling 
 
