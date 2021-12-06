@@ -88,10 +88,10 @@ Multiple crypto symbols have similar names as every day words.
 
 Hypothesis: After reviewing our data we believe that reddit will be predictive in terms of the increase of price of crypto's. This means reddit karma for a certain crypto will increase before a crypto's price begins to rise/drop. 
 
-# Reddit Score vs BitCoin Score
+# Reddit Score vs Bitcoin Score
 The reddit score for each crypto is the karma it gained in a day. The crypto score is the closed value of the crypto for that same day. The following graph compares the two values for 4 cryptos.Each graph is interactive where dragging will zoom and additonal buttons to help analysis on the top right. If buttons aren't there scroll to the right.
 
- ##  Bitcoin
+ ## Bitcoin
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
  Through inspection of the graph it appears as thought reddit is mainly reactive. This means most of the time when there is a spike in price of the coin reddit karma  increases after the price already increased. However in Octoboer 2020 a huge spike of karma is seen and then soon after there is an increase in the price of bitcoin. This can potentially be seen as predictive however most of the time this is reactive. 
    
@@ -110,7 +110,7 @@ The reddit score for each crypto is the karma it gained in a day. The crypto sco
 # Reddit score vs Trade Volume
 The reddit score for each crypto is the amount of karma it gained in a day. The trade volume is amount of transactions made with that crypto that same day. The following graph compares both side by side. Each graph is interactive where dragging will zoom and additonal buttons to help analysis on the top right. If buttons aren't there scroll to the right. 
 
-##  Bitcoin
+- ##  Bitcoin
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_volume.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
   Through inspection of the graph we see the two factors are highly correlated. When we look at spikes of reddit score we see that the amount of Bitcoin being  bought soon after karma rises significantly. This is seen in most of the spikes however as of recent the correlation has been a bit off as high reddit score in around June did not result in increase int bitcoin transaction. 
   
@@ -130,10 +130,3 @@ The reddit score for each crypto is the amount of karma it gained in a day. The 
 The data tells us  that reddit score is highly correlated with the volume traded of cryptos from high to low popularity. Activities on reddit also correlated with larges movements in price of a coin. The most popular crypto mentioned in reddit is Bitcoin, and the least popular crypto is H3x, and DragonChain. It appears that increased activity in reddit maps to increase in price in the long run(1-2 years). This is true through the inspection of cryptos across different popularity and their karma across reddit and volume bought /price each day.
 
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JosephAugustine17/RedditCoin/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
