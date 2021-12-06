@@ -123,7 +123,7 @@ The reddit score for each crypto is the amount of karma it gained in a day. The 
 <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum_volume.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
    Through inspection of the graph we see the two factors are highly correlated. When we look at spikes of reddit score we see that the amount of Ethereum being  bought soon after karma rises significantly. We see spikes in reddit karma early 2019 was followed by increase of transaction. This occurs similarly in late 2019 and early 2021. 
 - ## H3x
-- <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/h3x_volume.html" style="width: 1500px; height: 800px; border: 0px"></iframe
+ <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/h3x_volume.html" style="width: 1500px; height: 800px; border: 0px"></iframe
     Through inspection of the graph we see the two factors are highly correlated. Even though this is fairly unknown crypto we see that reddit still picks up on the transaction trends. Specifically look at around Jun 2020 reddit score drops substantially which followed the decrease in the number of transactions. When the karma went back up the volume of transactions also went up. 
 
 ## Communication 
