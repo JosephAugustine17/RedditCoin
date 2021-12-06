@@ -114,7 +114,8 @@ Discovered the most hated cyrpto's based on reddit score :
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/hated_crypto_subreddit.png"  class="center">
 
 
-After filtering crypto's removing common words we were surprised seeing cryptos such as pancakeswap to appear in the top echleon of reddict's upvoted cryptos. 
+We are now ready to properly answer what crypto are most and least popular. Grouping by each crypto name and aggregating the score over the days we found the most popular and least popular which are THENODE and H3X. We exprected Bitcoin to be first and then realized that the symbol for THENODE is A which is used in many sentences. So we decided to use a list of common english stopping words combined with a list of words generated from looking at the data. We also removed coins that also purely referenced by either syymbol or name because it is an indication that it is just a commmon english word. For example Name:THENODE and SYMBOL:A is purely referenced by the symbol only. This cleaning method gives us a clearer idea of what the most popular coins are. The coins we found were Bitcoin and Ehtereum which were expected. The most surprising one was PanCakeSwap.
+
 
 Hypothesis: After reviewing our data we believe that reddit will be predictive in terms of the increase of price of crypto's. This means reddit karma for a certain crypto will increase before a crypto's price begins to rise/drop. 
 
