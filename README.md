@@ -46,6 +46,7 @@ Our goal is to then use historical cryptocurrency data and generate visualizatio
 We are doing everything together, utilizing pair programming
 
 Azim Hirjani hirjania 1004191938
-Joseph Augustine august51 1004183965:
+
+Joseph Augustine august51 1004183965
 
 
