@@ -49,7 +49,7 @@ Additionally both fields filtered out dates which did not contain numerical valu
 
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Date_filter.png" class="center" >
 
-Reddit submission data was filtered to include subreddits with the names "btc", "BitcoinBeginners", "BitcoinMarkets", "BitcoinBeginners", "Bitcoin", "ethereum", "Vechain", "Ripple", "LitecoinMarkets", "dogecoin", "Monero", "Stellar" and any subreddit containing "crypto within the title. 
+Reddit submission data was filtered to include subreddits with the names "btc", "BitcoinBeginners", "BitcoinMarkets", "BitcoinBeginners", "Bitcoin", "ethereum", "Vechain", "Ripple", "LitecoinMarkets", "dogecoin", "Monero", "Stellar" and any subreddit containing "crypto within the title.These are popular sub-reddits we researched.  
 
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/crypto_subreddits.png" class="center" >
  
@@ -90,19 +90,20 @@ Hypothesis: After reviewing our data we believe that reddit will be predictive i
 
 # Reddit Score vs Bitcoin Score
 The reddit score for each crypto is the karma it gained in a day. The crypto score is the closed value of the crypto for that same day. The following graph compares the two values for 4 cryptos.Each graph is interactive where dragging will zoom and additonal buttons to help analysis on the top right. If buttons aren't there scroll to the right.
-## Vechain
-  ## Vechain
+- ## Bitcoin
+
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
  Through inspection of the graph it appears as thought reddit is mainly reactive. This means most of the time when there is a spike in price of the coin reddit karma  increases after the price already increased. However in Octoboer 2020 a huge spike of karma is seen and then soon after there is an increase in the price of bitcoin. This can potentially be seen as predictive however most of the time this is reactive. 
    
-## Vechain
+- ## Vechain
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
    Through inspection of the graph it appears as thought reddit is predictive. Looking athe spikes in July 2020 to around Feb 2021 we see that increases in prices occur after there is high karma with that coin on reddit. Additionally when reddit karma dies down the price of the coin steadily decreases.
   
-## Ethereum
+- ## Ethereum
 <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
    Through inspection of the graph it appears as thought reddit is predictive. We see early spikes in 2019 as well as spikes closer to when the price increaseses. For example in June 2020 reddict activity spikes and then soon later Ethereum begins to climb in price. This pattern continue sin January 2021 and April 2021 where the spikes in activity are followed by increases in price. 
-## H3x
+   
+- ## H3x
 <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/h3x.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
  Through inspection of the graph it appears as thought reddit is reactive. The price of the current begins to drop right before July 2020 however as the price of the crypto begins to drop we see that reddit score begins to drop as well. This however occurs after which is why we believe it to be reactive. 
 
