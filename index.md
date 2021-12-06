@@ -22,7 +22,7 @@ for which currency is it proactive and reactive.
     title="Inline Frame Example"
     width="300"
     height="200"
-    src="https://josephaugustine17.github.io/RedditCoin/docs/assets/test.html">
+    src="https://github.com/JosephAugustine17/RedditCoin/blob/gh-pages/docs/assets/test.html">
 </iframe>
 </p>
 ```markdown
