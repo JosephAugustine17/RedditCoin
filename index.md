@@ -71,7 +71,7 @@ Each crypto was placed in a dataframe which maps a crypto to the number mentions
 </p>
 
 3. ## Historical Crypto Data
-- Data about specific crypto's was downloaded from yahoo finance. These crypto's include : Bitcoin, Ethereum,H3x, Vechani and include data such as opens,high,low,adjusted close,closes, and volume for each day. 
+- Data about specific crypto's was downloaded from yahoo finance. These crypto's include : Bitcoin, Ethereum,H3x, Vechain and include data such as opens,high,low,adjusted close,closes, and volume for each day. We chose these crypto's due to varying popularity. Bitcoin and Ethereum have high popularity, Vchain is medium popular, and H3x is almost unknown. 
 
 
 # Data Exploration
@@ -84,30 +84,42 @@ Discovered least popular cryptos which are as followed:
 Multiple crypto symbols have similar names as every day words. 
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words.png"  class="center">
 
-Hypothesis: After reviewing our data we believe that reddit will be predictive in terms of the increase of price of crypto's. This means reddit activity for a certain crypto will increase before a crypto's price begins to rise/drop. 
+Hypothesis: After reviewing our data we believe that reddit will be predictive in terms of the increase of price of crypto's. This means reddit karma for a certain crypto will increase before a crypto's price begins to rise/drop. 
 
 # Reddit Score vs BitCoin Score
-The reddit score for each crypto is the amount of times it was mentioned in a day. The crypto score is the closed value of the crypto for that same day. The following graph compares the two values for 4 cryptos.Each graph is interactive where dragging will zoom and additonal buttons to help analysis on the top right. If buttons aren't there scroll to the right. 
+The reddit score for each crypto is the karma it gained in a day. The crypto score is the closed value of the crypto for that same day. The following graph compares the two values for 4 cryptos.Each graph is interactive where dragging will zoom and additonal buttons to help analysis on the top right. If buttons aren't there scroll to the right. 
  ##  Bitcoin
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
+ Through inspection of the graph it appears as thought reddit is mainly reactive. This means most of the time when there is a spike in price of the coin reddit karma  increases after the price already increased. However in Octoboer 2020 a huge spike of karma is seen and then soon after there is an increase in the price of bitcoin. This can potentially be seen as predictive however most of the time this is reactive. 
+   
 ## Vechain
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
+   Through inspection of the graph it appears as thought reddit is predictive. Looking athe spikes in July 2020 to around Feb 2021 we see that increases in prices occur after there is high karma with that coin on reddit. Additionally when reddit karma dies down the price of the coin steadily decreases.
+  
 ## Ethereum
 <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
+   Through inspection of the graph it appears as thought reddit is predictive. We see early spikes in 2019 as well as spikes closer to when the price increaseses. For example in June 2020 reddict activity spikes and then soon later Ethereum begins to climb in price. This pattern continue sin January 2021 and April 2021 where the spikes in activity are followed by increases in price. 
 ## H3x
 <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/h3x.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
+ Through inspection of the graph it appears as thought reddit is reactive. The price of the current begins to drop right before July 2020 however as the price of the crypto begins to drop we see that reddit score begins to drop as well. This however occurs after which is why we believe it to be reactive. 
 
 
 # Reddit score vs Trade Volume
-The reddit score for each crypto is the amount of times it was mentioned in a day. The trade volume is amount of transactions made with that crypto that same day. The following graph compares both side by side. Each graph is interactive where dragging will zoom and additonal buttons to help analysis on the top right. If buttons aren't there scroll to the right. 
+The reddit score for each crypto is the amount of karma it gained in a day. The trade volume is amount of transactions made with that crypto that same day. The following graph compares both side by side. Each graph is interactive where dragging will zoom and additonal buttons to help analysis on the top right. If buttons aren't there scroll to the right. 
 - ##  Bitcoin
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_volume.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
-- ## Vechain
+  Through inspection of the graph we see the two factors are highly correlated. When we look at spikes of reddit score we see that the amount of Bitcoin being  bought soon after karma rises significantly. This is seen in most of the spikes however as of recent the correlation has been a bit off as high reddit score in around June did not result in increase int bitcoin transaction. 
+  
+- ## VeChain
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain_volume.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
+   Through inspection of the graph we see the two factors are highly correlated. When we look at spikes of reddit score we see that the amount of VeChain being  bought soon after karma rises significantly. This is found significantyl around Feb 2021 where there is a huge spike of VeChain reddit score and then soon later amount of Vechain bought begins to rise steadily and then spikes 2 months after. 
+   
 - ## Ethereum
 <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum_volume.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
+   Through inspection of the graph we see the two factors are highly correlated. When we look at spikes of reddit score we see that the amount of Ethereum being  bought soon after karma rises significantly. We see spikes in reddit karma early 2019 was followed by increase of transaction. This occurs similarly in late 2019 and early 2021. 
 - ## H3x
-- <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/h3x_volume.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
+- <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/h3x_volume.html" style="width: 1500px; height: 800px; border: 0px"></iframe
+    Through inspection of the graph we see the two factors are highly correlated. Even though this is fairly unknown crypto we see that reddit still picks up on the transaction trends. Specifically look at around Jun 2020 reddit score drops substantially which followed the decrease in the number of transactions. When the karma went back up the volume of transactions also went up. 
 
 ## Communication 
 
@@ -116,30 +128,7 @@ what is the story the data is telling
 what is th evidence its true and what are the limitations 
 relate back to the goal 
 
-  
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![![image](https://user-images.githubusercontent.com/50184583/144765925-438d42c5-1b65-432e-ba42-305da82beb8e.png)
-]()
-](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-<p>test <p>
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JosephAugustine17/RedditCoin/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
