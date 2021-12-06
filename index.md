@@ -50,7 +50,6 @@ Hypothesis:
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain_2.html" style="width: 1500px; height: 600px; border: 0px"></iframe>
 ## - Ethereum
 <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum.html" style="width: 1500px; height: 600px; border: 0px"></iframe>
-### 
 
 ## Interpretation 
 do the graphs makes sense 
