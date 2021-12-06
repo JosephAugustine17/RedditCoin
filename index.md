@@ -90,8 +90,8 @@ Hypothesis: After reviewing our data we believe that reddit will be predictive i
 
 # Reddit Score vs Bitcoin Score
 The reddit score for each crypto is the karma it gained in a day. The crypto score is the closed value of the crypto for that same day. The following graph compares the two values for 4 cryptos.Each graph is interactive where dragging will zoom and additonal buttons to help analysis on the top right. If buttons aren't there scroll to the right.
-
- ## Bitcoin
+## Vechain
+  ## Vechain
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
  Through inspection of the graph it appears as thought reddit is mainly reactive. This means most of the time when there is a spike in price of the coin reddit karma  increases after the price already increased. However in Octoboer 2020 a huge spike of karma is seen and then soon after there is an increase in the price of bitcoin. This can potentially be seen as predictive however most of the time this is reactive. 
    
