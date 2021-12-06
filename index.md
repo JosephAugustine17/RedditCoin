@@ -45,15 +45,15 @@ Columns with empty values were dropped for both.
 <p align ="center">
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/cleaned_data.png" class="center">
 </p>
-Additionally both fields filtered out dates which did not contain numerical values. 
+Additionally both submission and comment data was filtered out dates which did not contain numerical values. 
 
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Date_filter.png" class="center" >
 
 Reddit submission data was filtered to include subreddits with the names "btc", "BitcoinBeginners", "BitcoinMarkets", "BitcoinBeginners", "Bitcoin", "ethereum", "Vechain", "Ripple", "LitecoinMarkets", "dogecoin", "Monero", "Stellar" and any subreddit containing "crypto within the title.These are popular sub-reddits we researched.  
 
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/crypto_subreddits.png" class="center" >
- 
-  ## Crypto Symbol/Name Data 
+
+## Crypto Symbol/Name Data 
 Data about names and symbols of crypto's were gathered first from website CoinMarketCap. This was data was scraped from the web page and then parsed as needed. Symbols were cleaned as well removing symbols which were common english words. 
 
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words_filtered.png"  class="center" >
