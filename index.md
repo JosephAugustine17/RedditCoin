@@ -109,7 +109,8 @@ The reddit score for each crypto is the karma it gained in a day. The crypto sco
 
 # Reddit score vs Trade Volume
 The reddit score for each crypto is the amount of karma it gained in a day. The trade volume is amount of transactions made with that crypto that same day. The following graph compares both side by side. Each graph is interactive where dragging will zoom and additonal buttons to help analysis on the top right. If buttons aren't there scroll to the right. 
-- ##  Bitcoin
+
+##  Bitcoin
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_volume.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
   Through inspection of the graph we see the two factors are highly correlated. When we look at spikes of reddit score we see that the amount of Bitcoin being  bought soon after karma rises significantly. This is seen in most of the spikes however as of recent the correlation has been a bit off as high reddit score in around June did not result in increase int bitcoin transaction. 
   
