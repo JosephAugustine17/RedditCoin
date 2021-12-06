@@ -44,11 +44,11 @@ and price increase made per cryptocurrency?
 ## Visualization 
 
 ### Bitcoin
-  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_2.html" style="width: 800px; height: 800px; border: 0px"></iframe>
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_2.html" style="width: 1500px; height: 600px; border: 0px"></iframe>
 ### Vechain
-<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain_2.html" style="width: 800px; height: 800px; border: 0px"></iframe>
+<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain_2.html" style="width: 1000px; height: 400px; border: 0px"></iframe>
 ### Ethereum
-<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum.html" style="width: 800px; height: 800px; border: 0px"></iframe>
+<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum.html" style="width: 1200px; height: 300px; border: 0px"></iframe>
 ### 
 
 ## Interpretation 
