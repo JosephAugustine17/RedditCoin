@@ -58,17 +58,17 @@ Data about names and symbols of crypto's were gathered first from website CoinMa
 
 
 Each crypto was placed in a dataframe which maps a crypto to the number mentions made on a particular day initialized as 0.
- 
+ <p align ="center">
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/coin_counter.png"  class="center" >
- 
+ </p>
  Looped through each related submission and look for mention of a specific coin. Similarly done for commentsas well 
-  
+  <p align ="center">
   <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_coin_counter.png  class="center"">
-  
+  </p>
   Both comment and submission data was merged into single table
-  
+  <p align ="center">
   <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/total_coin_counte.png  class="center"" >
-
+</p>
 - ## Historical Crypto Data
 - Data about specific crypto's was downloaded from yahoo finance. These crypto's include : Bitcoin, Ethereum,H3x, Vechani and include data such as opens,high,low,adjusted close,closes, and volume for each day. 
 
