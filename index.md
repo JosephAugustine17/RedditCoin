@@ -63,11 +63,11 @@ Each crypto was placed in a dataframe which maps a crypto to the number mentions
  </p>
  Looped through each related submission and look for mention of a specific coin. Similarly done for commentsas well 
   <p align ="center">
-  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_coin_counter.png  class="center"">
+  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_coin_counter.png" class="center">
   </p>
   Both comment and submission data was merged into single table
   <p align ="center">
-  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/total_coin_counte.png  class="center"" >
+  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/total_coin_counte.png"  class="center" >
 </p>
 - ## Historical Crypto Data
 - Data about specific crypto's was downloaded from yahoo finance. These crypto's include : Bitcoin, Ethereum,H3x, Vechani and include data such as opens,high,low,adjusted close,closes, and volume for each day. 
@@ -75,13 +75,13 @@ Each crypto was placed in a dataframe which maps a crypto to the number mentions
 
 # Data Exploration
 Discovered most popular cryptos which are as followed: 
- <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Most_popular.png  class="center"" >
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Most_popular.png"  class="center" >
 
 Discovered least popular cryptos which are as followed: 
-<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/least_popular.png  class="center"" >
+<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/least_popular.png"  class="center" >
 
 Multiple crypto symbols have similar names as every day words. 
-<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words.png  class="center"">
+<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words.png"  class="center">
 
 Hypothesis: After reviewing our data we believe that reddit will be predictive in terms of the increase of price of crypto's. This means reddit activity for a certain crypto will increase before a crypto's price begins to rise/drop. 
 
