@@ -29,7 +29,7 @@ and price increase made per cryptocurrency?
 # Data Collection and Cleaning 
 
 1. ## Reddit Data 
-Submission data gathered from reddit <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_pre_clean.png" ></img>
+Submission data gathered from reddit  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/comment_pre_clean.png" ></img>
  
 Comment data gathered from reddit 
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/comment_pre_clean.png" ></img>
