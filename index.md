@@ -84,7 +84,7 @@ Discovered least popular cryptos which are as followed:
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/least_popular.png"  class="center" >
 
 Multiple crypto symbols have similar names as every day words. 
-<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words.png"  class="center">
+<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words_filtered.png"  class="center">
 
 Hypothesis: After reviewing our data we believe that reddit will be predictive in terms of the increase of price of crypto's. This means reddit karma for a certain crypto will increase before a crypto's price begins to rise/drop. 
 
