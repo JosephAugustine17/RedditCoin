@@ -44,7 +44,7 @@ Hypothesis: After reviewing our data we believe that reddit will be predictive i
 # Reddit Score vs BitCoin Score
 
 - ##  Bitcoin
-  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin.html" style="width: 1500px; height: 600px; border: 0px"></iframe>
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin.html" style="width: 1700px; height: 600px; border: 0px"></iframe>
 - ## Vechain
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain.html" style="width: 1700px; height: 600px; border: 0px"></iframe>
 - ## Ethereum
@@ -56,7 +56,7 @@ Hypothesis: After reviewing our data we believe that reddit will be predictive i
 # Reddit score vs Trade Volume
 
 - ##  Bitcoin
-  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_volume.html" style="width: 1500px; height: 600px; border: 0px"></iframe>
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_volume.html" style="width: 1700px; height: 600px; border: 0px"></iframe>
 - ## Vechain
   <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain_volume.html" style="width: 1700px; height: 600px; border: 0px"></iframe>
 - ## Ethereum
