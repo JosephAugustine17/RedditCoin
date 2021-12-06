@@ -51,7 +51,7 @@ Reddit submission data was filtered to include subreddits with the names "btc", 
 
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/crypto_subreddits.png" class="center" >
  
-- ## Crypto Symbol/Name Data 
+2.  ## Crypto Symbol/Name Data 
 Data about names and symbols of crypto's were gathered first from website CoinMarketCap. This was data was scraped from the web page and then parsed as needed. Symbols were cleaned as well removing symbols which were common english words. 
 
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words_filtered.png"  class="center" >
@@ -69,7 +69,8 @@ Each crypto was placed in a dataframe which maps a crypto to the number mentions
   <p align ="center">
   <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/total_coin_counte.png"  class="center" >
 </p>
-- ## Historical Crypto Data
+
+3. ## Historical Crypto Data
 - Data about specific crypto's was downloaded from yahoo finance. These crypto's include : Bitcoin, Ethereum,H3x, Vechani and include data such as opens,high,low,adjusted close,closes, and volume for each day. 
 
 
