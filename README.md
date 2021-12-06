@@ -34,12 +34,18 @@ This will mainly be gathered through a dataset which contains the historical pri
 
 # Methods
 
-There is a data cleaning process to remove values that are null or missing.
+We will perform our analysis on both the the comment and submission datasets because they cover most of the popular crypto subreddits and is an appropriate size to be able to work with it.
 
-We performed initial analysis on the entire dataset creating visualizations for specific columns like score, subreddit, and date. Then we selected specific cryptocurrency subreddits and performed further analysis on the same columns. Using the specific subreddits we created a 
-dataset per day of how many times each cryptocurrency is mentioned. We will do this using the Reddit dataset provided and a dataset of cryptocurrency names and symbols that was created by us using web scraping. Using the results we could find which cryptocurrencies were mentioned the most.
+Before we start to answer our questions we will perform some exploratory analysis which we did on the milestone report to get an understanding of the data. To do this exploratory analysis the data must be cleaned. We will clean the data by removing rows with missing values in specific columns, then we parsed the date used a date parser so it can be used in analysis later.
 
-Our goal is to then use historical cryptocurrency data and generate visualizations with the volume, price, score and date allowing us to determine the relationship for each cryptocurrency.
+With the missing data removed we are ready to perform exploratory data anaysis which was performed on our milestone report. We wanted to get an understanding of the data so we decided to use visualization techniques focusing on specific features like score, subreddit, and date. Using bar graphs we analyzed the score by looking at the frequency, this graph was unreadable so we used the log to make the graph readable. We performed various analysis on the date grouping by day, month, and year and seeing how post frequency varies using bar graphs. Finally we looked at the different subreddits utilizing key work searches to see if there even are crypto subreddits to do our project on. We discovered the most popular subreddits using graphs and decided which ones to focus on.
+
+Relating to our project we wanted to do size by size visual comparisons of reddit scores of certain crypto and their price over time using line graphs. So in our milestone we decided to start by getting a count of how many times a crypto is mentioned throughout the entire dataset and find the most and least popular coins. To count the score of each cryptocurrency we needed a list of valid cryptocurrencies so we webscraped a list because there is no list easily available to download including extremely unknown currencies. We used both the symbol and name of a cryptocurrency because both a commonly used. We discovered through bar graphs that Swap is the most popular and BitWhite is the least popular.
+
+In the final report we now want to now count the score of a crypto per day instead of for the entire time like in the milestone. So we created dataframes where there was a row for each crypto for each day. We also improved the search by using a list of popular subreddits that we researched. The submission and comment data was then used to perform a search on the body and text data looking for the symbols and names of cryptocurrency webscraped and tracked on the dataframes created. In this search there were 4 distinct searches (Crypto Name and Submission Data), (Cryto Symbol and Submission Data), (Crypto Name and Comment Data), and (Crypto Symbol and Comment Data). We searched for the former in the latter of the pairs and aggregated the results into a single dataframe. This search was intensive as the datasets were quite large but we utilized hash maps to reduce search times to O(1).
+
+We are now ready to properly answer what crypto are most and least popular. Grouping by each crypto name and aggregating the score over the days we found the most popular and least popular which are THENODE and H3X. We exprected Bitcoin to be first and then realized that the symbol for THENODE is A which is used in many sentences.
+
 
 # Organization: 
 
