@@ -12,7 +12,9 @@ echoed through media platforms. Our project will tackle the above by attempting 
 relationship between the value of low-valued crypto currencies and their popularity on multiple
 subreddits. We will also analyze if reddit is reactive or proactive in terms of cryptocurrencies and
 for which currency is it proactive and reactive.
-#Ne
+
+<button type="button">Unanswered Questions!</button>
+
 <p align="center">
    <img src= "https://josephaugustine17.github.io/RedditCoin/docs/assets/Model2AveragePseudoR2.png" />
 </p>
