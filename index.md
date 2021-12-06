@@ -84,7 +84,7 @@ We discovered that many of have the submissions had no or very low score.
 
  Likewise with comments
  
- <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/comment\_score_value.png"  class="center" >
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/comment_score_value.png"  class="center" >
 
 Also we discovered comments scores that are negative are close to 0. 
   <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/comments_score_neg_value.png"  class="center" >
