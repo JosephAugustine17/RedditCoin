@@ -1,3 +1,5 @@
+Authors: Joseph Augustine 1004183965, Azim Hirjani 1004191938
+
 # Introduction
 People are on a continual mine for wealth searching for the next biggest phenom in order to
 jump that bandwagon earlier than sooner. The most recent phenomenon that has been taking
