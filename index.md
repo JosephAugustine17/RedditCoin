@@ -32,7 +32,7 @@ and price increase made per cryptocurrency?
 Submission data gathered from reddit  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/comment_pre_clean.png" ></img>
  
 Comment data gathered from reddit 
- <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submissions_pre_clean.png" ></img>
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_pre_clean.png" ></img>
 
 Reddit submission data cleaned such that each column between "score", "title", "subreddit", "created_utc" would require values.
 Reddit comment data cleaned such that each column between "score", "body", "subreddit", "created_utc" would require values.
