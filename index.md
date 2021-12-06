@@ -47,7 +47,6 @@ Additionally both fields filtered out dates which did not contain numerical valu
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Date_filter.png" >
 
 From Reddit data subreddits pertaining to crypto specifically "btc", "BitcoinBeginners", "BitcoinMarkets", "BitcoinBeginners", "Bitcoin", "ethereum", "Vechain", "Ripple", "LitecoinMarkets", "dogecoin", "Monero", "Stellar" and any subreddit containing "crypto within the title was added to queue of subreddits to be queried. 
-
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/crypto_subreddits.png">
 
 - ## Crypto Symbol/Name Data 
