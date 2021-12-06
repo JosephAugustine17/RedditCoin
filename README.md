@@ -12,10 +12,15 @@ People are on a continual mine for wealth searching for the next biggest phenom 
 ## Research Questions 
 
 1.What is the relationship between popularity of coin’s mentioned on reddit and value of coins in the real world for low valued bitcoins?
+
 2. Does a surge in popularity due to posts and comments  on reddit map to increases in value for certain cryptocurrencies?
+
 3. Can specific subreddits predict increases in value based on increases in popularity through posts/comments?
+ 
 4. What crypto that is most and least talked about through crypto subreddit?
+
 5. Do surges in popularity on reddit map directly to the volume of transactions made per cryptocurrency?
+
 6. Do surges in popularity on reddit and twitter  map directly to the volume of transactions and price increase  made per cryptocurrency?
 
 
