@@ -31,42 +31,42 @@ and price increase made per cryptocurrency?
 1. ## Reddit Data 
 Submission data gathered from reddit
 
-<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_pre_clean.png" >
+<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_pre_clean.png" class="center" >
  
 Comment data gathered from reddit 
 
-<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/comment_pre_clean.png" >
+<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/comment_pre_clean.png" class="center" >
 
 Reddit submission data cleaned such that each column between "score", "title", "subreddit", "created_utc" would require values.
 Reddit comment data cleaned such that each column between "score", "body", "subreddit", "created_utc" would require values.
 Columns with empty values were dropped for both. 
 
-<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/cleaned_data.png">
+<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/cleaned_data.png" class="center">
 
 Additionally both fields filtered out dates which did not contain numerical values. 
- <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Date_filter.png" >
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Date_filter.png" class="center" >
 
 Reddit submission data was filtered to include subreddits with the names "btc", "BitcoinBeginners", "BitcoinMarkets", "BitcoinBeginners", "Bitcoin", "ethereum", "Vechain", "Ripple", "LitecoinMarkets", "dogecoin", "Monero", "Stellar" and any subreddit containing "crypto within the title. 
 
- <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/crypto_subreddits.png" >
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/crypto_subreddits.png" class="center" >
 
 - ## Crypto Symbol/Name Data 
 Data about names and symbols of crypto's were gathered first from website CoinMarketCap. This was data was scraped from the web page and then parsed as needed. Symbols were cleaned as well removing symbols which were common english words. 
 
-<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words_filtered.png" >
+<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words_filtered.png"  class="center" >
 
 
 Each crypto was placed in a dataframe which maps a crypto to the number mentions made on a particular day initialized as 0.
  
- <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/coin_counter.png" >
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/coin_counter.png"  class="center" >
  
  Looped through each related submission and look for mention of a specific coin. Similarly done for commentsas well 
   
-  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_coin_counter.png">
+  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/submission_coin_counter.png  class="center"">
   
   Both comment and submission data was merged into single table
   
-  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/total_coin_counte.png" >
+  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/total_coin_counte.png  class="center"" >
 
 - ## Historical Crypto Data
 - Data about specific crypto's was downloaded from yahoo finance. These crypto's include : Bitcoin, Ethereum,H3x, Vechani and include data such as opens,high,low,adjusted close,closes, and volume for each day. 
@@ -74,38 +74,38 @@ Each crypto was placed in a dataframe which maps a crypto to the number mentions
 
 # Data Exploration
 Discovered most popular cryptos which are as followed: 
- <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Most_popular.png" >
+ <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Most_popular.png  class="center"" >
 
 Discovered least popular cryptos which are as followed: 
-<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/least_popular.png" >
+<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/least_popular.png  class="center"" >
 
 Multiple crypto symbols have similar names as every day words. 
-<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words.png">
+<img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words.png  class="center"">
 
 Hypothesis: After reviewing our data we believe that reddit will be predictive in terms of the increase of price of crypto's. This means reddit activity for a certain crypto will increase before a crypto's price begins to rise/drop. 
 
 # Reddit Score vs BitCoin Score
-The reddit score for each crypto is the amount of times it was mentioned in a day. The crypto score is the closed value of the crypto for that same day. The following graph compares the two values for 4 cryptos.Each graph is interactive where dragging will zoom and additonal buttons to help analysis on the top right. 
+The reddit score for each crypto is the amount of times it was mentioned in a day. The crypto score is the closed value of the crypto for that same day. The following graph compares the two values for 4 cryptos.Each graph is interactive where dragging will zoom and additonal buttons to help analysis on the top right. If buttons aren't there scroll to the right. 
  ##  Bitcoin
-  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin.html" style="width: 1700px; height: 800px; border: 0px"></iframe>
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
 ## Vechain
-  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain.html" style="width: 1800px; height: 800px; border: 0px"></iframe>
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
 ## Ethereum
 <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
 ## H3x
-<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/h3x.html" style="width: 1600px; height: 800px; border: 0px"></iframe>
+<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/h3x.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
 
 
 # Reddit score vs Trade Volume
-The reddit score for each crypto is the amount of times it was mentioned in a day. The trade volume is amount of transactions made with that crypto that same day. The following graph compares both side by side. Each graph is interactive where dragging will zoom and additonal buttons to help analysis on the top right. 
+The reddit score for each crypto is the amount of times it was mentioned in a day. The trade volume is amount of transactions made with that crypto that same day. The following graph compares both side by side. Each graph is interactive where dragging will zoom and additonal buttons to help analysis on the top right. If buttons aren't there scroll to the right. 
 - ##  Bitcoin
-  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_volume.html" style="width: 2200px; height: 800px; border: 0px"></iframe>
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_volume.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
 - ## Vechain
-  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain_volume.html" style="width: 2200px; height: 800px; border: 0px"></iframe>
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain_volume.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
 - ## Ethereum
-<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum_volume.html" style="width: 2200px; height: 800px; border: 0px"></iframe>
+<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum_volume.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
 - ## H3x
-- <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/h3x_volume.html" style="width: 2200px; height: 800px; border: 0px"></iframe>
+- <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/h3x_volume.html" style="width: 1500px; height: 800px; border: 0px"></iframe>
 
 ## Communication 
 
