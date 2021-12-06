@@ -95,22 +95,28 @@ Discovered most popular cryptos which are as followed:
 
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Most_popular.png"  class="center" >
 
-Discovered least popular cryptos which are as followed: 
+Discovered least popular cryptos which are as followed:
+
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/least_popular.png"  class="center" >
 
-Multiple crypto symbols have similar names as every day words. 
+Multiple crypto symbols have similar names as every day words.
+
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words_filtered.png"  class="center">
 
-Additionally discoverd the largest cyrpto subreddicts based on submission data: 
+Additionally discoverd the largest cyrpto subreddicts based on submission data:
+
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/largest_crypto_subreddit_sub.png"  class="center">
 
-Discovered the largest cyrpto subreddicts based on comment data: 
+Discovered the largest cyrpto subreddicts based on comment data:
+
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/largest_crypto_subreddit_com.png"  class="center">
 
 Discovered the most popular cyrpto's based on reddit score: 
+
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/popular_crypto_subreddit.png"  class="center">
 
 Discovered the most hated cyrpto's based on reddit score : 
+
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/hated_crypto_subreddit.png"  class="center">
 
 
