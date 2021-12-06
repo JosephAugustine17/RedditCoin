@@ -91,6 +91,8 @@ Discovered least popular cryptos which are as followed:
 Multiple crypto symbols have similar names as every day words. 
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/common_words_filtered.png"  class="center">
 
+After filtering crypto's removing common words we were surprised seeing cryptos such as pancakeswap to appear in the top echleon of reddict's upvoted cryptos. 
+
 Hypothesis: After reviewing our data we believe that reddit will be predictive in terms of the increase of price of crypto's. This means reddit karma for a certain crypto will increase before a crypto's price begins to rise/drop. 
 
 # Reddit Score vs Bitcoin Score
