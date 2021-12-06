@@ -12,12 +12,12 @@ echoed through media platforms. Our project will tackle the above by attempting 
 relationship between the value of low-valued crypto currencies and their popularity on multiple
 subreddits. We will also analyze if reddit is reactive or proactive in terms of cryptocurrencies and
 for which currency is it proactive and reactive.
-#Next
+#Ne
 <p align="center">
-   <img src= "https://josephaugustine17.github.io/RedditCoin/Model2AveragePseudoR2.png" />
+   <img src= "https://josephaugustine17.github.io/RedditCoin/docs/assets/Model2AveragePseudoR2.png" />
 </p>
 
-
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/test.html" style="width: 800px; height: 800px; border: 0px"></iframe>
 ```markdown
 Syntax highlighted code block
 
