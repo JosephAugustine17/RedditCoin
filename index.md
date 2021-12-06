@@ -46,7 +46,7 @@ Columns with empty values were dropped for both.
 Additionally both fields filtered out dates which did not contain numerical values. 
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Date_filter.png" >
 
-From Reddit data subreddits pertaining to crypto specifically "btc", "BitcoinBeginners", "BitcoinMarkets", "BitcoinBeginners", "Bitcoin", "ethereum", "Vechain", "Ripple", "LitecoinMarkets", "dogecoin", "Monero", "Stellar" and any subreddit containing "crypto within the title was added to queue of subreddits to be queried. 
+Reddit submission data was filtered to include subreddits with the names "btc", "BitcoinBeginners", "BitcoinMarkets", "BitcoinBeginners", "Bitcoin", "ethereum", "Vechain", "Ripple", "LitecoinMarkets", "dogecoin", "Monero", "Stellar" and any subreddit containing "crypto within the title. 
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/crypto_subreddits.png">
 
 - ## Crypto Symbol/Name Data 
@@ -86,25 +86,25 @@ Hypothesis: After reviewing our data we believe that reddit will be predictive i
 # Reddit Score vs BitCoin Score
 The reddit score for each crypto is the amount of times it was mentioned in a day. The crypto score is the closed value of the crypto for that same day. The following graph compares the two values for 4 cryptos. 
 - ##  Bitcoin
-  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin.html" style="width: 2500px; height: 800px; border: 0px"></iframe>
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin.html" style="width: 2200px; height: 800px; border: 0px"></iframe>
 - ## Vechain
-  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain.html" style="width: 2500px; height: 800px; border: 0px"></iframe>
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain.html" style="width: 2200px; height: 800px; border: 0px"></iframe>
 - ## Ethereum
-<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum.html" style="width: 2500px; height: 800px; border: 0px"></iframe>
+<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum.html" style="width: 2200px; height: 800px; border: 0px"></iframe>
 - ## H3x
-<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/h3x.html" style="width: 2500px; height: 800px; border: 0px"></iframe>
+<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/h3x.html" style="width: 2200px; height: 800px; border: 0px"></iframe>
 
 
 # Reddit score vs Trade Volume
 The reddit score for each crypto is the amount of times it was mentioned in a day. The trade volume is amount of transactions made with that crypto that same day. The following graph compares both side by side. 
 - ##  Bitcoin
-  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_volume.html" style="width: 2500px; height: 800px; border: 0px"></iframe>
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/bitcoin_volume.html" style="width: 2200px; height: 800px; border: 0px"></iframe>
 - ## Vechain
-  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain_volume.html" style="width: 2500px; height: 800px; border: 0px"></iframe>
+  <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/vechain_volume.html" style="width: 2200px; height: 800px; border: 0px"></iframe>
 - ## Ethereum
-<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum_volume.html" style="width: 2500px; height: 800px; border: 0px"></iframe>
+<iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/ethereum_volume.html" style="width: 2200px; height: 800px; border: 0px"></iframe>
 - ## H3x
-- <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/h3x_volume.html" style="width: 2500px; height: 800px; border: 0px"></iframe>
+- <iframe src="https://josephaugustine17.github.io/RedditCoin/docs/assets/h3x_volume.html" style="width: 2200px; height: 800px; border: 0px"></iframe>
 
 ## Interpretation 
 
