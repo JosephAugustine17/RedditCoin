@@ -40,7 +40,7 @@ Comment data gathered from reddit
 Reddit submission data cleaned such that each column between "score", "title", "subreddit", "created_utc" would require values.
 Reddit comment data cleaned such that each column between "score", "body", "subreddit", "created_utc" would require values.
 Columns with empty values were dropped for both. 
-<p class="aligncenter">
+<p align ="center">
 <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/cleaned_data.png" class="center">
 </p>
 Additionally both fields filtered out dates which did not contain numerical values. 
