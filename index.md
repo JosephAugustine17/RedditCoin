@@ -77,7 +77,12 @@ Each crypto was placed in a dataframe which maps a crypto to the number mentions
 
 
 # Data Exploration
-Discovered most popular cryptos which are as followed: 
+With the missing data removed we are ready to perform exploratory data anaysis which was performed on our milestone report. We wanted to get an understanding of the data so we decided to use visualization techniques focusing on specific features like score, subreddit, and date.Using bar graphs we analyzed the score by looking at the frequency, this graph was unreadable so we used the log to make the graph readable. 
+
+We performed various analysis on the date grouping by day, month, and year and seeing how post frequency varies using bar graphs. Finally we looked at the different subreddits utilizing key work searches to see if there even are crypto subreddits to do our project on. We discovered the most popular subreddits using graphs and decided which ones to focus on.
+
+Discovered most popular cryptos which are as followed:
+
  <img src="https://josephaugustine17.github.io/RedditCoin/docs/assets/Most_popular.png"  class="center" >
 
 Discovered least popular cryptos which are as followed: 
