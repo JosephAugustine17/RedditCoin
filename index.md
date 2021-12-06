@@ -123,10 +123,7 @@ The reddit score for each crypto is the amount of karma it gained in a day. The 
 
 ## Communication 
 
-Clearly describe what you learned and how others can use 
-what is the story the data is telling 
-what is th evidence its true and what are the limitations 
-relate back to the goal 
+The data tells us  that reddit score is highly correlated with the volume traded of cryptos from high to low popularity. Activities on reddit also correlated with larges movements in price of a coin. The most popular crypto mentioned in reddit is Bitcoin, and the least popular crypto is H3x, and DragonChain. It appears that increased activity in reddit maps to increase in price in the long run(1-2 years). This is true through the inspection of cryptos across different popularity and their karma across reddit and volume bought /price each day.
 
 
 ### Jekyll Themes
